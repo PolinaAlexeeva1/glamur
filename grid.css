@@ -1,0 +1,30 @@
+/* 	для смартфонов */
+.parent {
+	display: grid;
+    padding: 10px;
+	width: 93%;
+    column-gap: 2%;
+	margin-left: 3%;
+    margin-bottom: 2%;	
+}
+.foot{
+    display: grid;
+    padding: 10px;
+	width: 93%;
+    column-gap: 1%;
+	margin-left: 3%; 
+}
+
+  /* ДЛЯ ПЛАНШЕТА */
+@media (min-width: 767px) { 
+.parent {
+    grid-template-columns: 1fr 1fr ;
+}
+}  
+
+ /* ДЛЯ КОМПА */
+@media (min-width: 1024px) {
+.parent {
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}

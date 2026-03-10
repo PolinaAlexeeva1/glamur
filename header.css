@@ -1,0 +1,57 @@
+.header {
+  overflow: hidden;
+  background-color: #800000;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.header a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  color: #ffd700;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+/* Медиа-запрос для адаптивности – когда ширина
+  экрана 650px или меньше, ссылки будут друг над другом */
+@media screen and (max-width: 650px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+  /* ДЛЯ ПЛАНШЕТА */
+@media (min-width: 767px) { 
+.parent {
+    grid-template-columns: 1fr 1fr ;
+}
+}  
+
+ /* ДЛЯ КОМПА */
+@media (min-width: 1024px) {
+.parent {
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
