@@ -11,7 +11,7 @@
         <a href="catalog.php" class="logo">ГЛАМУР</a>
         <div class="header-right">
             <a href="korsina2.php">Корзина</a>
-            <a href="index.php">Выйти из аккаунта</a>
+            <a href="index.html">Выйти из аккаунта</a>
         </div>
         </div> 
     </header>
